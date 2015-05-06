@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <script src="phonegap.js" type="text/javascript"></script> 
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1>Eventos</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <!--<p>Primera Aplicacion Movil</p>-->
+   <div align="center">
+    <div data-role="controlgroup" data-type="vertical" style="width:40%">
+     <a href="#" class="ui-btn  " id="btnvibrar">Vibrar</a>
+     <a href="#" class="ui-btn " id="btnbeep">Beep</a>
+     <a href="#barrer" class="ui-btn  " id="btnbarrer">Barrer</a>
+     <a href="#eventos" class="ui-btn " id="btneventos">Eventos</a>
+    </div>
+   </div>        
+  </div>
+
+  <div data-role="footer">
+    <h1>@Beatriz</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+ 
+ 
+ <!--Barrer-->
+  <div data-role="page" id="barrer" >   
+  <div data-role="header">
+    <h1>Barrer</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  
+   <!--<p>Primera Aplicacion Movil</p>--> 
+    <div style="background-color:#CF0; height:150px; color:#F36" align="center" id="izquierda">
+     <h1> Izquierda </h1>
+    </div> 
+    <div style="background-color:#6FF; height:150px;" align="center" id="derecha"> 
+     <h1>Derecha</h1> 
+    </div>
+</div>
+  <div data-role="footer">
+    <h1>@Beatriz</h1>
+  </div>
+ </div>  
+ <!--Barrer-->
+                                                    
+
+<!--Eventos-->
+  <div data-role="page" id="eventos" >   
+  
+   <div data-role="header">
+    <h1>Listado de Eventos</h1>
+   </div>
+
+  <div data-role="main" class="ui-content">
+   <div id="listado">
+   </div>  
+  </div>
+                                                       
+  <div data-role="footer">
+    <h1>@Beatriz</h1>
+  </div>
+ </div>  
+ <!--Eventos-->
+ </body>
+</html> 
